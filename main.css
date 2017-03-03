@@ -1,0 +1,79 @@
+h1{
+font-family: 'Ruslan Display', cursive;
+}
+
+body{
+background-color: #AAA;
+}
+
+img{
+height: 250px;
+}
+
+#logo {
+background-color: #FFF;
+border-radius: 80%;
+display: flex;
+justify-content: center;
+}
+
+nav {
+background-color: #006da8;
+display: flex;
+height: 2em;
+justify-content: center;
+align-items: center;
+font-size: 15pt;
+font-family: 'Ruslan Display', cursive;
+border-radius: 80%;
+}
+
+a {
+color: white;
+}
+
+a:hover {
+color: #001475;
+}
+
+.stuff{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.item{
+/* border: black solid 2pt; */
+width: 300px;
+
+}
+
+.product{
+/* border: black solid 2pt; */
+max-width: 100%;
+display: block;
+}
+
+.caption{
+width: 100%;
+/* border: yellow solid 1pt; */
+display: block;
+
+}
+
+h3{
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+}
+
+#music_block{
+display: flex;
+flex-direction: column;
+}
+
+audio {
+margin: 10px;
+width: 50%;
+}
